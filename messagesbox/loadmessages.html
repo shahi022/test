@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Saved Messages</title>
+    <link rel="stylesheet" href="loadmessages.css">
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 80%;
+			margin: 20px auto;
+			font-size: 18px;
+		}
+		th, td {
+			padding: 10px;
+			text-align: center;
+			border: 1px solid #ddd;
+		}
+		th {
+			background-color: #f2f2f2;
+		}
+	</style>
+</head>
+<body>
+	<h1>Saved Messages</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Message</th>
+				<th>Date/Time</th>
+			</tr>
+		</thead>
+		<tbody id="message-table">
+		</tbody>
+	</table>
+	<script src="loadmessages.js"></script>
+</body>
+</html>
